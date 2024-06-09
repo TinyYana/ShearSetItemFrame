@@ -1,0 +1,4 @@
+name: ShearSetItemFrame
+version: '${project.version}'
+main: tinyyana.shearsetitemframe.ShearSetItemFramePlugin
+api-version: '1.20'
