@@ -6,12 +6,10 @@ public final class ShearSetItemFramePlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getServer().getPluginManager().registerEvents(new SetItemFrame(),this);
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
     }
 }
